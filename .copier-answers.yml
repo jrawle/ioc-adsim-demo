@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 4.6.3
+_src_path: https://github.com/epics-containers/ioc-template
+description: Generic IOC for the areaDetector simulation detector
+git_platform: github.com
+github_org: jrawle
+name: ioc-adsim-demo
+repo_uri: git@github.com:jrawle/ioc-adsim-demo.git
+rtems: false
