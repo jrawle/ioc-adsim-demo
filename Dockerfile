@@ -37,7 +37,7 @@ RUN ansible.sh ioc
 COPY scripts/generate_manifest.py /tmp/generate_manifest.py
 RUN python3 /tmp/generate_manifest.py "${IOC_VERSION}"
 
-# copy module as per tutorial
+# copy module as per tutorial for testing
 COPY ibek-support/ADSimDetector/ ADSimDetector
 RUN ansible.sh ADSimDetector
 
